@@ -1,8 +1,9 @@
-# HMRC spending disclosure: exploratory data analysis
+# HMRC spending disclosures: data understanding and exploratory analysis
 
 **Reporting period:** January 2023–December 2025  
 **Prepared:** 25 November 2026  
-**Purpose:** Stakeholder and portfolio overview
+**Current status:** Data familiarisation, preparation, and Python EDA are complete; interactive visualisation is the next phase.  
+**Purpose of this report:** Document the exploratory phase and propose the next visualisation work.
 
 ## Executive summary
 
@@ -15,6 +16,20 @@ Three findings stand out:
 3. **The data are useful for describing patterns, but not for attributing causes.** Large individual lines influence monthly totals; exact repeated rows have been retained; and the supplier-group mapping is an analytical overlay. These choices and limitations matter when interpreting the charts.
 
 The work is exploratory, not an audit of HMRC accounts or a claim that any payment is erroneous.
+
+This is an intermediate project deliverable, not the finished visualisation. The charts in this report are static Python EDA outputs. No Power BI or Excel dashboard has been built yet, and stakeholder review of an interactive version remains future work.
+
+## Project process and status
+
+I began by understanding the data before deciding what to chart. Questions and candidate visuals emerged during that familiarisation, then I refined the shortlist as the EDA showed which patterns were informative.
+
+| Stage | What I did or plan to do | Status |
+|---|---|---|
+| 1. Data familiarisation | I reviewed the 36 monthly files, their period and structure, field meanings, payment-date and VAT conventions, credits, the £25,000 disclosure context, supplier/category labels, and repeated transaction references. | Complete |
+| 2. Data audit and preparation | I checked file coverage, dates, amounts, blank/padding rows, and repeated records; I prepared a consistent working dataset while retaining all populated lines, credits, and duplicates. | Complete |
+| 3. Python EDA | I explored monthly and annual spend, suppliers, expense types and areas, amount distributions, credits, line counts, repeat-row sensitivity, and month-to-month co-movement; I produced ten core static charts. | Complete |
+| 4. Visualisation planning | I selected a practical stakeholder-focused shortlist from candidate questions raised during data familiarisation and refined through EDA. | Proposed in this report |
+| 5. Interactive visualisation | I will build the agreed visuals in Power BI or Excel, validate totals and filters against the Python analysis, then review with stakeholders. | Not started |
 
 ## Scope and data
 
@@ -159,8 +174,26 @@ The chart shows that this scenario has a limited effect on annual totals. Any de
 4. Review expense-type and expense-area naming variants with the relevant coding owners before merging categories.
 5. Extend the series as new monthly disclosures are released; consider inflation-adjusted comparisons for longer-term trend work.
 
+## Proposed visualisation plan for the next phase
+
+These are recommended dashboard visuals, not work already completed. They can be implemented in Power BI or Excel; the tool and final layout have not yet been chosen.
+
+| Priority | Proposed visual | Why it is relevant and how to handle it |
+|---|---|---|
+| Core | **Overview:** KPI cards for positive payments, credits, net spend, positive-line count, and credit-line count; monthly positive/credit/net trend; annual net comparison. | Gives stakeholders scale and direction while keeping gross payments, credits, and net amounts distinct. Add a period filter and label amounts as nominal. |
+| Core | **Supplier concentration and movement:** ranked/Pareto view of positive spend by supplier group, with a supplier selector and monthly trend. | Shows concentration and how leading groups change over time. Keep Atos and Eviden separate and identify all roll-ups as analytical groups. |
+| Core | **Spend composition:** ranked bars for expense type and expense area, with filters or drill-down by year. | Shows where reported spend is classified. Keep the two dimensions separate; validate label variants before combining them. |
+| Core | **Year-over-year change:** a waterfall/bridge of net change by supplier group, expense type, or area, one dimension at a time. | Makes the drivers of annual increases and decreases easier to explain. Do not add contributors from different dimensions together. |
+| Supporting | **Payment-line review table:** high-value positive lines and credits with date, supplier, expense type/area, transaction reference, and amount. | Lets an analyst investigate the £138m line and large credits in context. Label these as review candidates, not errors or anomalies. |
+| Supporting | **Monthly activity context:** positive and credit line counts alongside the median positive line amount. | Distinguishes changes in payment volume and typical line size from changes in total spend. |
+| Optional | **Calendar heatmap of monthly net spend.** | Useful for comparing months across years if stakeholders ask about within-year patterns; do not present it as proof of seasonality. |
+
+The amount-distribution chart can remain in the EDA appendix or support a focused payment-review page. Keep duplicate sensitivity as a data-quality note rather than a dashboard KPI: it is a scenario, not a correction. Keep the correlation heatmap in the exploratory appendix rather than the main stakeholder view; it uses only 35 month-to-month changes and does not establish cause. These choices prioritize the visuals with the clearest decision and communication value.
+
+For either Power BI or Excel, the next build should include filters for period, supplier group, expense type, and expense area; consistent labels for gross/credit/net measures; and checks that filtered totals reconcile to the Python EDA. Final pages and measures should be confirmed during that build and stakeholder review.
+
 ## Reproducibility and included files
 
 The reusable figure-generation script is [`analysis/run_eda.py`](../analysis/run_eda.py), and the supplier crosswalk is [`analysis/supplier_name_mapping.csv`](../analysis/supplier_name_mapping.csv). The script expects the cleaned file at `data/processed/hmrc_payments_clean.csv`. Neither that file nor the raw monthly files are included in this report package. Reproducing the figures therefore requires obtaining the disclosures from the [HMRC collection](https://www.gov.uk/government/collections/hmrc-spending-over-25000) and recreating the cleaned input in the expected format.
 
-The report includes the ten core EDA charts. A separate expense-type-by-area drill-down was created but is intentionally deferred from this core report.
+The report includes the ten core EDA charts. A separate expense-type-by-area drill-down was created but is intentionally deferred from this core report. The future Power BI or Excel visualisation remains outstanding.
