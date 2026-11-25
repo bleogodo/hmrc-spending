@@ -1,0 +1,88 @@
+source_supplier,consolidated_supplier,consolidation_basis
+COGNIZANT,Cognizant,Same supplier brand alias
+COGNIZANT Technology Solutions,Cognizant,Same supplier brand alias
+AMAZON WEB SERVICES,Amazon Web Services group,Same supplier brand across legal labels
+Amazon Web Services UK,Amazon Web Services group,Same supplier brand across legal labels
+AMAZON WEB SERVICES EMEA SARL,Amazon Web Services group,Same supplier brand across legal labels
+SPECIALIST COMPUTER CTR,Specialist Computer Centres,Same supplier; published abbreviation
+SPECIALIST COMPUTER CTR (NON EDI),Specialist Computer Centres,Same supplier; non-EDI label variant
+ATOS IT SERVICES UK LTD,Atos group,Atos supplier group roll-up
+Atos Holding UK 1 Ltd,Atos group,Atos supplier group roll-up
+EVIDEN TECHNOLOGY SERVICES LIMITED,Eviden group,Eviden supplier group roll-up
+Mitie Limited,Mitie group,Corporate-group roll-up
+MITIE FM LIMITED,Mitie group,Corporate-group roll-up
+MITIE LTD (MFS),Mitie group,Corporate-group roll-up
+Mitie LTD (MFS),Mitie group,Corporate-group roll-up
+OCS GROUP UK LIMITED,OCS group,Corporate-group roll-up
+OCS UK&I LIMITED,OCS group,Corporate-group roll-up
+CB RICHARD ELLIS (CBRE),CBRE group,Corporate-group roll-up
+CBRE,CBRE group,Corporate-group roll-up
+CBRE LTD,CBRE group,Corporate-group roll-up
+CBRE Limited,CBRE group,Corporate-group roll-up
+CBRE NI LTD,CBRE group,Corporate-group roll-up
+RELX (UK) LTD T/A LEXISNEXIS,LexisNexis/RELX group,Corporate-group roll-up
+LEXISNEXIS RISK SOLUTIONS LTD,LexisNexis/RELX group,Corporate-group roll-up
+LexisNexis Risk Solutions Ltd,LexisNexis/RELX group,Corporate-group roll-up
+LexisNexis Risk Solutions UK Ltd,LexisNexis/RELX group,Corporate-group roll-up
+Cushman & Wakefield,Cushman & Wakefield group,Corporate-group roll-up
+Cushman & Wakefield (DTZ),Cushman & Wakefield group,Corporate-group roll-up
+DTZ,Cushman & Wakefield group,Corporate-group roll-up
+EDENRED (UK GROUP) LTD (CYCLE TO WO,Edenred Cycle2Work,Same supplier programme; truncated label
+EDENRED UK GROUP LTD CYCLE TO WORK,Edenred Cycle2Work,Same supplier programme
+Edenred (UK Group) Ltd Cycle2Work,Edenred Cycle2Work,Same supplier programme
+PITNEY BOWES FINANCE LTD (PURCH),Pitney Bowes group,Corporate-group roll-up
+PITNEY BOWES LTD,Pitney Bowes group,Corporate-group roll-up
+Pitney Bowes,Pitney Bowes group,Corporate-group roll-up
+Jones Lang LaSalle Property,Jones Lang LaSalle Property,Same supplier; account suffix variant
+Jones Lang LaSalle Property Acc,Jones Lang LaSalle Property,Same supplier; account suffix variant
+ERNST & YOUNG,Ernst & Young,Same supplier brand alias
+ERNST & YOUNG LLP,Ernst & Young,Same supplier brand alias
+SSE Generation Ltd,SSE Generation,Same supplier; legal representative suffix
+SSE Generation Ltd. c/o CMS,SSE Generation,Same supplier; legal representative suffix
+Wates Property Services Limited,Wates Property Services,Same supplier; Ltd/Limited variant
+Wates Property Services Ltd,Wates Property Services,Same supplier; Ltd/Limited variant
+KAINOS SOFTWARE LTD,Kainos Software,Same supplier; Ltd/Limited variant
+Kainos Software Limited,Kainos Software,Same supplier; Ltd/Limited variant
+NETCOMPANY UK LTD,Netcompany UK,Same supplier; Ltd/Limited variant
+NETCOMPANY UK Limited,Netcompany UK,Same supplier; Ltd/Limited variant
+RED FROG HIRE LTD,Red Frog Hire,Same supplier; Ltd/Limited variant
+Red Frog Hire Limited,Red Frog Hire,Same supplier; Ltd/Limited variant
+Spirit 120 Limited,Spirit 120,Same supplier; Ltd/Limited variant
+Spirit 120 Ltd,Spirit 120,Same supplier; Ltd/Limited variant
+Air India Ltd C/o Zaiwalla & Co.,Air India Ltd c/o Zaiwalla & Co.,Same supplier; punctuation variant
+Air India Ltd. c/o Zaiwalla & Co.,Air India Ltd c/o Zaiwalla & Co.,Same supplier; punctuation variant
+BRISTOL CITY COUNCIL,Bristol City Council,Same supplier; case variant
+BRISTOL CITY COUNCIL.,Bristol City Council,Same supplier; punctuation variant
+"Convergint Technologies UK, Limited",Convergint Technologies UK Limited,Same supplier; punctuation/case variant
+Convergint Technologies Uk Limited,Convergint Technologies UK Limited,Same supplier; case variant
+"Convergint Technologies Uk, Limited",Convergint Technologies UK Limited,Same supplier; punctuation/case variant
+Delinian Ltd c/o KPMG Law,Delinian Ltd c/o KPMG Law,Same supplier; punctuation variant
+Delinian Ltd. c/o KPMG Law,Delinian Ltd c/o KPMG Law,Same supplier; punctuation variant
+FOREIGN COMMONWEALTH & DEVELOPMENT,Foreign Commonwealth & Development,Same supplier; case variant
+"FOREIGN, COMMONWEALTH & DEVELOPMENT",Foreign Commonwealth & Development,Same supplier; punctuation variant
+Isle Of Anglesey County Council,Isle of Anglesey County Council,Same supplier; case variant
+Isle of Angelsey County Council,Isle of Anglesey County Council,Same supplier; spelling variant
+Isle of Anglesey County Council,Isle of Anglesey County Council,Same supplier; canonical label
+MANNING GOTTLIEB OMD A DIVISION OF,Manning Gottlieb OMD,Same supplier; punctuation/case variant
+"MANNING GOTTLIEB OMD, A DIVISION OF",Manning Gottlieb OMD,Same supplier; punctuation/case variant
+MARITIME INSIGHTS & INTELLIGENCE,Maritime Insights & Intelligence,Same supplier; case variant
+Maritime Insights & Intelligence,Maritime Insights & Intelligence,Same supplier; canonical label
+MASTEK UK LTD,Mastek UK Ltd,Same supplier; case variant
+Mastek UK Ltd,Mastek UK Ltd,Same supplier; canonical label
+NewWorldTech Ltd,New World Tech Ltd,Same supplier; spacing variant
+New World Tech Ltd,New World Tech Ltd,Same supplier; canonical label
+ORGVUE LIMITED,Orgvue Limited,Same supplier; case variant
+Orgvue Limited,Orgvue Limited,Same supplier; canonical label
+PagerDuty Inc,PagerDuty Inc,Same supplier; canonical label
+"PagerDuty, Inc.",PagerDuty Inc,Same supplier; punctuation variant
+THYSSENKRUPP MATERIALS (UK) LTD,Thyssenkrupp Materials (UK) Ltd,Same supplier; case variant
+Thyssenkrupp Materials (UK) Ltd,Thyssenkrupp Materials (UK) Ltd,Same supplier; canonical label
+Thyssenkrupp Materials (uk) Ltd,Thyssenkrupp Materials (UK) Ltd,Same supplier; case variant
+V Ltd c/o TT Tax,V Ltd c/o TT Tax,Same supplier; canonical label
+V Ltd. c/o TT Tax,V Ltd c/o TT Tax,Same supplier; punctuation variant
+GALLIFORD TRY CONTRUCTION,GALLIFORD TRY CONSTRUCTION LTD,Same supplier; spelling variant
+GALLIFORD TRY CONSTRUCTION LTD,GALLIFORD TRY CONSTRUCTION LTD,Same supplier; canonical label
+Bluecrest Capital Management c/o Slaughter & May,Bluecrest Capital Management,Same supplier group; representative suffix
+Bluecrest Capital Management (UK)  LLP c/o Slaughter & May,Bluecrest Capital Management,Same supplier group; representative suffix
+Burlington Loan Management DAC,Burlington Loan Management,Burlington supplier; c/o representative variant
+Burlington Loan Management c/o Sim,Burlington Loan Management,Burlington supplier; c/o representative variant
