@@ -1,6 +1,18 @@
-# HMRC spending disclosure EDA (2023–2025)
+# HMRC spending disclosures: data understanding and EDA (2023–2025)
 
-An exploratory analysis of HMRC monthly spending disclosures covering January 2023 to December 2025. The project examines payment trends, supplier concentration, expense categories, credits, repeated rows, and month-to-month patterns.
+This project analyses HMRC monthly spending disclosures from January 2023 to December 2025. It is being completed in stages: the data-understanding and Python EDA phase is complete; the interactive Power BI or Excel visualisation is still to come.
+
+## Project status and process
+
+| Stage | Work | Status |
+|---|---|---|
+| Data familiarisation | I reviewed the monthly files, reporting period, fields, and disclosure conventions before choosing questions to explore. | Complete |
+| Data audit and preparation | I checked file coverage, dates, amounts, empty rows, repeated records, and supplier labels; I prepared the analysis dataset without removing populated rows or credits. | Complete |
+| Exploratory analysis | I used Python and static charts to examine trends, suppliers, expense categories, line amounts, credits, repeated rows, and monthly activity. | Complete |
+| Visualisation planning | I selected a stakeholder-focused shortlist from questions raised during data familiarisation and refined through EDA. | Proposed; see the report |
+| Interactive visualisation | I will build, validate, and review the final Power BI or Excel visuals. | Not started |
+
+The report's static Python charts document EDA findings; they are not the final interactive dashboard or a claim that the full project is finished.
 
 ## Highlights
 
